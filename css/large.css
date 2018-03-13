@@ -1,0 +1,531 @@
+
+nav
+{
+	height: 65px;
+}
+nav img
+{
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+}
+nav ul li
+{
+	display: inline-block;
+	float: right;
+	width: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #888873;
+	border-right-style: solid;
+    border-right-width: 1px;
+	border-right-color: #ccc;
+	border-left-style: solid;
+    border-left-width: 1px;
+	border-left-color: #ccc;
+	line-height: 60px;
+}
+
+nav ul .li1
+{
+	padding-left: 20px;
+}
+nav ul .li2,nav ul .li3,nav ul .li4,nav ul .li5
+{
+	width: 140px;
+	padding-left: 20px;
+}
+.report{
+	line-height: 80px;
+	height: 80px;
+	background-color: #7c7365;
+}
+
+.report > span{
+	margin-left: 50px;
+	font: "黑体";
+	font-size:18px;
+	color: white;
+}
+
+.report .num{
+	font-size: 22px;
+	line-height: 42px;
+	text-align: center;
+	color: #ff9900;
+	display: inline-block;
+	width: 90px;
+	height: 42px;
+	background-color: white;
+	letter-spacing:2px;
+	border-radius: 5px;
+	/*阴影*/
+	box-shadow: 3px 3px 3px #3c3c3c inset;
+	margin: 0 15px;
+}
+
+.report a{
+	float: right;
+	font-size:15px;
+	color: white;
+	margin-right: 20px;
+}
+
+.report a:hover{
+	color:#ff9900;
+}
+.pic
+{
+	height: 355px;
+	background: rgb(115,10,0);
+}
+.notice
+{
+	height: 154px;
+	position: relative;
+}
+.notice .safe,.notice .auth,.notice .free
+{
+	width: 350px;
+	height: 100px;
+	padding-left: 50px;
+	margin-left: 50px;
+	display: inline-block;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.notice .safe > span,.notice .auth > span,.notice .free >span
+{
+	font-size: 35px;
+	font-weight: 1000;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+}
+.notice .safe ul,.notice .auth ul,.notice .free ul
+{
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 110px;
+}
+.notice .new
+{
+	width: 1245px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	position: relative;
+}
+.notice .new .new1,.notice .new .data,.notice .new .new2
+{
+	padding-left: 10px;
+}
+.notice .new a
+{
+	position: absolute;
+	right: 15px;
+}
+.produce1,
+.produce2
+{
+	height: 560px;
+	background: #f5f9fa;
+	width: 1245px;
+	margin-left: 50px;
+	position: relative;
+	
+}
+.produce1 .fix,
+.produce2 .fix
+{
+	width: 232px;	
+	height: 536px;
+	display: inline-block;
+	position: relative;
+	
+	
+}
+
+.produce1 .fix .fix_left,
+.produce2 .fix .fix_left
+{
+	font-size: 25px;
+	font-weight: 400;
+	padding-left: 40px;
+	position: absolute;
+	top: 30px;
+}
+.produce1 .fix ul,
+.produce2 .fix ul
+{
+	font-size: 15px;
+	font-weight: 550;
+	position: absolute;
+	top: 80px;
+	padding-left: 45px;
+	text-align: center;
+}
+.produce1 .fix ul li,
+.produce2 .fix ul li
+{
+	padding-top: 10px;
+}
+.produce1 .fix_month,
+.produce2 .fix_month
+{
+	border: 2px solid #eee;
+	border-top: none;
+	display: inline-block;
+	width: 1010px;
+	height: 106px;
+	position: absolute;
+	top:0;
+	
+}
+.produce1 .fix_month .month,
+.produce1 .fix_month .fix_money1,
+.produce1 .fix_month .fix_money2,
+.produce1 .fix_month2 .month,
+.produce1 .fix_month2 .fix_money1,
+.produce1 .fix_month2 .fix_money2,
+.produce1 .fix_month3 .month,
+.produce1 .fix_month3 .fix_money1,
+.produce1 .fix_month3 .fix_money2,
+.produce1 .fix_month4 .month,
+.produce1 .fix_month4 .fix_money1,
+.produce1 .fix_month4 .fix_money2,
+.produce1 .fix_month5 .month,
+.produce1 .fix_month5 .fix_money1,
+.produce1 .fix_month5 .fix_money2,
+.produce2 .fix_month .month,
+.produce2 .fix_month .fix_money1,
+.produce2 .fix_month .fix_money2,
+.produce2 .fix_month2 .month,
+.produce2 .fix_month2 .fix_money1,
+.produce2 .fix_month2 .fix_money2,
+.produce2 .fix_month3 .month,
+.produce2 .fix_month3 .fix_money1,
+.produce2 .fix_month3 .fix_money2,
+.produce2 .fix_month4 .month,
+.produce2 .fix_month4 .fix_money1,
+.produce2 .fix_month4 .fix_money2,
+.produce2 .fix_month5 .month,
+.produce2 .fix_month5 .fix_money1,
+.produce2 .fix_month5 .fix_money2
+{
+	width: 300px;
+	height: 106px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+	overflow: hidden;
+	
+}
+
+.produce1 .fix_month .month,
+.produce1 .fix_month2 .month,
+.produce1 .fix_month3 .month,
+.produce1 .fix_month4 .month,
+.produce1 .fix_month5 .month,
+.produce2 .fix_month .month,
+.produce2 .fix_month2 .month,
+.produce2 .fix_month3 .month,
+.produce2 .fix_month4 .month,
+.produce2 .fix_month5 .month
+{
+	line-height: 85px;
+}
+
+.produce1 .fix_month .month .num1,.num2,.num4,
+.produce1 .fix_month2 .month .num1,.num2,.num4,
+.produce1 .fix_month3 .month .num1,.num2,.num4,
+.produce1 .fix_month4 .month .num1,.num2,.num4,
+.produce1 .fix_month5 .month .num1,.num2,.num4,
+.produce2 .fix_month .month .num1,.num2,.num4,
+.produce2 .fix_month2 .month .num1,.num2,.num4,
+.produce2 .fix_month3 .month .num1,.num2,.num4,
+.produce2 .fix_month4 .month .num1,.num2,.num4,
+.produce2 .fix_month5 .month .num1,.num2,.num4
+{
+	font-size: 30px;
+	font-family: "黑体";
+}
+
+.produce1 .fix_money1,
+.produce2 .fix_money1
+{
+	
+	border: 2px solid #eee;
+	border-top: none;
+	border-right: none;
+	position: relative;
+
+}
+
+.produce1 .fix_money2,
+.produce2 .fix_money2
+{
+	border-right: 2px solid #eee;
+}
+
+.produce1 .fix_month .buy,
+.produce1 .fix_month2 .buy,
+.produce1 .fix_month3 .buy,
+.produce1 .fix_month4 .buy,
+.produce1 .fix_month5 .buy,
+.produce2 .fix_month .buy,
+.produce2 .fix_month2 .buy,
+.produce2 .fix_month3 .buy,
+.produce2 .fix_month4 .buy,
+.produce2 .fix_month5 .buy
+{
+	display: inline-block;
+	width: 106px;
+	height: 106px;
+	background-color:white;
+	
+	text-align: center;
+	line-height: 100px;
+}
+
+.produce1 .fix_month .buy > a,
+.produce1 .fix_month2 .buy > a,
+.produce1 .fix_month3 .buy > a,
+.produce1 .fix_month4 .buy > a,
+.produce1 .fix_month5 .buy > a,
+.produce2 .fix_month .buy > a,
+.produce2 .fix_month2 .buy > a
+
+{
+	font-size: 15px;
+	color: white;
+	display:inline-block;
+	width: 70px;
+	height: 30px;
+	background-color: #ff9900;
+	border-radius: 5px;
+	line-height: 30px;
+}
+.produce2 .fix_month3 .buy > a,
+.produce2 .fix_month4 .buy > a,
+.produce2 .fix_month5 .buy > a
+{
+	font-size: 15px;
+	color: white;
+	display:inline-block;
+	width: 70px;
+	height: 30px;
+	background-color: #8b999d;
+	border-radius: 5px;
+	line-height: 30px;
+}
+.produce1 .fix_month2 .fix_money1 li,
+.produce1 .fix_month2 .fix_money2 li,
+.produce1 .fix_month3 .fix_money1 li,
+.produce1 .fix_month3 .fix_money2 li,
+.produce1 .fix_month4 .fix_money1 li,
+.produce1 .fix_month4 .fix_money2 li,
+.produce1 .fix_month5 .fix_money1 li,
+.produce1 .fix_month5 .fix_money2 li,
+.produce2 .fix_month .fix_money1 li,
+.produce2 .fix_month .fix_money2 li,
+.produce2 .fix_month2 .fix_money1 li,
+.produce2 .fix_month2 .fix_money2 li,
+.produce2 .fix_month3 .fix_money1 li,
+.produce2 .fix_month3 .fix_money2 li,
+.produce2 .fix_month4 .fix_money1 li,
+.produce2 .fix_month4 .fix_money2 li,
+.produce2 .fix_month5 .fix_money1 li,
+.produce2 .fix_month5 .fix_money2 li
+{
+	padding-top: 25px;
+}
+.produce1 .fix_month .fix_money1 li,
+.produce1 .fix_month .fix_money2 li
+{
+	padding-top: 20px;
+}
+
+.produce1 .fix_month2,
+.produce2 .fix_month2
+{
+	border: 2px solid #eee;
+	border-top: none;
+	display: inline-block;
+	width: 1010px;
+	height: 106px;
+	position: absolute;
+	top:110px;
+}
+.produce1 .fix_month3,
+.produce2 .fix_month3
+{
+	border: 2px solid #eee;
+	border-top: none;
+	display: inline-block;
+	width: 1010px;
+	height: 106px;
+	position: absolute;
+	top:220px;
+}
+.produce1 .fix_month4,
+.produce2 .fix_month4
+{
+	border: 2px solid #eee;
+	border-top: none;
+	display: inline-block;
+	width: 1010px;
+	height: 106px;
+	position: absolute;
+	top:330px;
+}
+.produce1 .fix_month5,
+.produce2 .fix_month5
+{
+	border: 2px solid #eee;
+	border-top: none;
+	display: inline-block;
+	width: 1010px;
+	height: 106px;
+	position: absolute;
+	top:440px;
+}
+
+.produce2 .fix_month .month li,
+.produce2 .fix_month2 .month li,
+.produce2 .fix_month3 .month li,
+.produce2 .fix_month4 .month li,
+.produce2 .fix_month5 .month li
+{
+	height: 30px;
+	list-style: none;
+}
+.produce2 .fix_month .low,
+.produce2 .fix_month2 .low,
+.produce2 .fix_month3 .low,
+.produce2 .fix_month4 .low,
+.produce2 .fix_month5 .low
+{
+	font-size: 13px;
+}
+footer
+{
+	height: 186px;
+}
+footer img
+{
+	display: inline-block;
+	width: 182px;
+	height: 36px;
+	float: left;
+	padding-left: 85px;
+	padding-top: 53px;
+}
+footer ul
+{
+	display: inline-block;
+	float: left;
+	padding-left: 98px;
+	padding-top: 44px;
+}
+.copr
+{
+	height: 158px;
+}
+.copr ul li
+{
+	background: url("../img/cert1.png") no-repeat;
+}
+.copr ul
+{
+	position: relative;
+}
+.copr ul .position1
+{
+	width: 80px;
+	height:52px;
+	background-position:-735px -91px;
+	display: inline-block;
+	position: absolute;
+	left: 272px;
+	top: 40px;
+}
+.copr ul .position2
+{
+	width: 158px;
+	height:56px;
+	background-position:-220px -191px;
+	display: inline-block;
+	position: absolute;
+	left: 374px;
+	top: 40px;
+}
+.copr ul .position3
+{
+	width: 76px;
+	height:54px;
+	background-position:-852px -179px;
+	display: inline-block;
+	position: absolute;
+	left: 554px;
+	top: 40px;
+}
+.copr ul .position4
+{
+	width: 128px;
+	height:51px;
+	background-position:-800px -372px;
+	display: inline-block;
+	position: absolute;
+	left: 652px;
+	top: 40px;
+}
+.copr ul .position5
+{
+	width: 46px;
+	height:61px;
+	background-position:-94px -91px;
+	display: inline-block;
+	position: absolute;
+	left: 802px;
+	top: 40px;
+}
+.copr ul .position6
+{
+	width: 149px;
+	height:51px;
+	background-position:0px -642px;
+	display: inline-block;
+	position: absolute;
+	left: 870px  ;
+	top: 40px;
+}
+.copr ul .position7
+{
+	width: 34px;
+	height:35px;
+	background-position:-202px -71px;
+	display: inline-block;
+	position: absolute;
+	left: 1041px;
+	top: 40px;
+}
+.copr span
+{
+	padding-left: 480px;
+	padding-top:110px;
+	display: inline-block;
+	color: #7f7c7c;
+	font-size: 15px;
+
+}
+#pic
+{
+	height: 470px;
+	background: pink;
+}
